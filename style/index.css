@@ -3,7 +3,7 @@
 
 @media(max-width: 576px){ 
 	body{
-		background-image: url("Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+		background-image: url("../Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
 		background-repeat: no-repeat;
 	}
 
@@ -63,7 +63,7 @@
 
 @media(min-width: 576px) and (max-width: 768px){
 	body{
-		background-image: url("Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+		background-image: url("../Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
 		background-repeat: no-repeat;
 	}
 
@@ -123,7 +123,7 @@
 @media(min-width: 769px){
 	body{
 		background-color: #2a2c2f;
-		background-image: url("Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+		background-image: url("../Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
 		background-repeat: no-repeat;
 	}
 

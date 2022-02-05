@@ -1,0 +1,329 @@
+
+/* ---------- Mobile view ---------- */
+
+@media(max-width: 576px){
+    body{
+        background-image: url("../Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+        background-repeat: no-repeat;
+    }
+    #sign-up-box{
+        width: 400px;
+        height: 500px;
+        margin-top: 150px;
+    }
+
+    #first-name-entry{
+        width: 250px;
+        margin-left: 100px;
+        margin-top: 30px;
+        position: absolute;
+
+    }
+
+    #first-name-label{
+        margin-top: 30px;
+        position: absolute;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #last-name-label{
+        position: absolute;
+        margin-top: 100px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #last-name-entry{
+        position: absolute;
+        margin-top: 100px;
+        width: 250px;
+        margin-left: 100px;
+    }
+
+    #username-label{
+        position: absolute;
+        margin-top: 170px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #username-entry{
+        position: absolute;
+        margin-top: 170px;
+        width: 250px;
+        margin-left: 100px;
+    }
+
+    #password-label{
+        position: absolute;
+        font-size: 20px;
+        margin-top: 240px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #password-entry{
+        position: absolute;
+        margin-top: 240px;
+        width: 250px;
+        margin-left: 100px;
+   }
+
+   #confirm-password-label{
+       position: absolute;
+       margin-top: 300px;
+       font-size: 20px;
+       font-family: 'Teko', sans-serif;
+       color: #ffffff;
+   }
+
+   #confirm-password-entry{
+       position: absolute;
+       margin-top: 300px;
+       width: 250px;
+       margin-left: 100px;
+   }
+
+   #sign-up-heading{
+       text-align: center;
+       font-family: 'Rowdies', cursive;
+       color: #ffffff;
+   }
+
+   #submit-button{
+       position: absolute;
+       margin-left: 120px;
+       margin-top: 400px;
+       width: 100px;
+   }
+
+}
+
+
+/* ---------- Medium devices view ---------- */
+
+@media(min-width: 576px) and (max-width: 768px){
+
+    body{
+        background-image: url("../Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+        background-repeat: no-repeat;
+    }
+
+    #sign-up-box{
+        width: 500px;
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    #sign-up-heading{
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: 'Rowdies', cursive;
+        color: #ffffff;
+
+    }
+
+    #first-name-label{
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #first-name-entry{
+        position: absolute;
+        width: 250px;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+
+    #last-name-label{
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #last-name-entry{
+        position: absolute;
+        margin-top: 70px;
+        width: 250px;
+        margin-left: 150px;
+    }
+
+    #username-label{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #username-entry{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 150px;
+        width: 250px;
+    }
+
+    #password-label{
+        position: absolute;
+        margin-top: 195px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #password-entry{
+        position: absolute;
+        width: 250px;
+        margin-left: 150px;
+        margin-top: 195px;
+    }
+
+    #confirm-password-label{
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #confirm-password-entry{
+        position: absolute;
+        margin-top: 260px;
+        margin-left: 150px;
+        width: 250px;
+
+    }
+
+    #submit-button{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 170px;
+        width: 100px;
+    }
+}
+
+/* ---------- Desktop view ----------*/
+
+@media(min-width: 769px){
+    
+    body{
+        background-image: url("../Image/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+        background-repeat: no-repeat;
+    }
+
+    #sign-up-box{
+        width: 500px;
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    #sign-up-heading{
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: 'Rowdies', cursive;
+        color: #ffffff;
+
+    }
+
+    #first-name-label{
+        position: absolute;
+        margin-top: 13px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #first-name-entry{
+        position: absolute;
+        width: 250px;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+
+    #last-name-label{
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #last-name-entry{
+        position: absolute;
+        margin-top: 70px;
+        width: 250px;
+        margin-left: 150px;
+    }
+
+    #username-label{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #username-entry{
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 150px;
+        width: 250px;
+    }
+
+    #password-label{
+        position: absolute;
+        margin-top: 195px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #password-entry{
+        position: absolute;
+        width: 250px;
+        margin-left: 150px;
+        margin-top: 195px;
+    }
+
+    #confirm-password-label{
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Teko', sans-serif;
+        color: #ffffff;
+    }
+
+    #confirm-password-entry{
+        position: absolute;
+        margin-top: 260px;
+        margin-left: 150px;
+        width: 250px;
+
+    }
+
+    #submit-button{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 170px;
+        width: 100px;
+    }
+}
